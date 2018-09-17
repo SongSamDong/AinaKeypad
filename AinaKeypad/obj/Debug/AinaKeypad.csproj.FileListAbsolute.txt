@@ -1,0 +1,9 @@
+C:\Users\Dell\Documents\Visual Studio 2015\Projects\AinaKeypad\AinaKeypad\bin\Debug\AinaKeypad.exe.config
+C:\Users\Dell\Documents\Visual Studio 2015\Projects\AinaKeypad\AinaKeypad\bin\Debug\AinaKeypad.exe
+C:\Users\Dell\Documents\Visual Studio 2015\Projects\AinaKeypad\AinaKeypad\bin\Debug\AinaKeypad.pdb
+C:\Users\Dell\Documents\Visual Studio 2015\Projects\AinaKeypad\AinaKeypad\obj\Debug\AinaKeypad.csprojResolveAssemblyReference.cache
+C:\Users\Dell\Documents\Visual Studio 2015\Projects\AinaKeypad\AinaKeypad\obj\Debug\AinaKeypad.Form1.resources
+C:\Users\Dell\Documents\Visual Studio 2015\Projects\AinaKeypad\AinaKeypad\obj\Debug\AinaKeypad.Properties.Resources.resources
+C:\Users\Dell\Documents\Visual Studio 2015\Projects\AinaKeypad\AinaKeypad\obj\Debug\AinaKeypad.csproj.GenerateResource.Cache
+C:\Users\Dell\Documents\Visual Studio 2015\Projects\AinaKeypad\AinaKeypad\obj\Debug\AinaKeypad.exe
+C:\Users\Dell\Documents\Visual Studio 2015\Projects\AinaKeypad\AinaKeypad\obj\Debug\AinaKeypad.pdb

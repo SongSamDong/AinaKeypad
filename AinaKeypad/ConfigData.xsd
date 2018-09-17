@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ConfigData" targetNamespace="http://tempuri.org/ConfigData.xsd" xmlns:mstns="http://tempuri.org/ConfigData.xsd" xmlns="http://tempuri.org/ConfigData.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ConfigData" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="ConfigData" msprop:Generator_UserDSName="ConfigData">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Preset" msprop:Generator_TableClassName="PresetDataTable" msprop:Generator_TableVarName="tablePreset" msprop:Generator_RowChangedName="PresetRowChanged" msprop:Generator_TablePropName="Preset" msprop:Generator_RowDeletingName="PresetRowDeleting" msprop:Generator_RowChangingName="PresetRowChanging" msprop:Generator_RowEvHandlerName="PresetRowChangeEventHandler" msprop:Generator_RowDeletedName="PresetRowDeleted" msprop:Generator_RowClassName="PresetRow" msprop:Generator_UserTableName="Preset" msprop:Generator_RowEvArgName="PresetRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Id" msprop:Generator_ColumnVarNameInTable="columnId" msprop:Generator_ColumnPropNameInRow="Id" msprop:Generator_ColumnPropNameInTable="IdColumn" msprop:Generator_UserColumnName="Id" type="xs:string" />
+              <xs:element name="Description" msprop:Generator_ColumnVarNameInTable="columnDescription" msprop:Generator_ColumnPropNameInRow="Description" msprop:Generator_ColumnPropNameInTable="DescriptionColumn" msprop:Generator_UserColumnName="Description" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="DefaultPreset" msprop:Generator_TableClassName="DefaultPresetDataTable" msprop:Generator_TableVarName="tableDefaultPreset" msprop:Generator_RowChangedName="DefaultPresetRowChanged" msprop:Generator_TablePropName="DefaultPreset" msprop:Generator_RowDeletingName="DefaultPresetRowDeleting" msprop:Generator_RowChangingName="DefaultPresetRowChanging" msprop:Generator_RowEvHandlerName="DefaultPresetRowChangeEventHandler" msprop:Generator_RowDeletedName="DefaultPresetRowDeleted" msprop:Generator_RowClassName="DefaultPresetRow" msprop:Generator_UserTableName="DefaultPreset" msprop:Generator_RowEvArgName="DefaultPresetRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id" msprop:Generator_ColumnVarNameInTable="columnid" msprop:Generator_ColumnPropNameInRow="id" msprop:Generator_ColumnPropNameInTable="idColumn" msprop:Generator_UserColumnName="id" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="PresetConfig" msprop:Generator_TableClassName="PresetConfigDataTable" msprop:Generator_TableVarName="tablePresetConfig" msprop:Generator_RowChangedName="PresetConfigRowChanged" msprop:Generator_TablePropName="PresetConfig" msprop:Generator_RowDeletingName="PresetConfigRowDeleting" msprop:Generator_RowChangingName="PresetConfigRowChanging" msprop:Generator_RowEvHandlerName="PresetConfigRowChangeEventHandler" msprop:Generator_RowDeletedName="PresetConfigRowDeleted" msprop:Generator_RowClassName="PresetConfigRow" msprop:Generator_UserTableName="PresetConfig" msprop:Generator_RowEvArgName="PresetConfigRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id" msprop:Generator_ColumnVarNameInTable="columnid" msprop:Generator_ColumnPropNameInRow="id" msprop:Generator_ColumnPropNameInTable="idColumn" msprop:Generator_UserColumnName="id" type="xs:string" />
+              <xs:element name="presetId" msprop:Generator_ColumnVarNameInTable="columnpresetId" msprop:Generator_ColumnPropNameInRow="presetId" msprop:Generator_ColumnPropNameInTable="presetIdColumn" msprop:Generator_UserColumnName="presetId" type="xs:string" />
+              <xs:element name="KeypadButton" msprop:Generator_ColumnVarNameInTable="columnKeypadButton" msprop:Generator_ColumnPropNameInRow="KeypadButton" msprop:Generator_ColumnPropNameInTable="KeypadButtonColumn" msprop:Generator_UserColumnName="KeypadButton" type="xs:string" />
+              <xs:element name="KeysDesc" msprop:Generator_ColumnVarNameInTable="columnKeysDesc" msprop:Generator_ColumnPropNameInRow="KeysDesc" msprop:Generator_ColumnPropNameInTable="KeysDescColumn" msprop:Generator_UserColumnName="KeysDesc" type="xs:string" minOccurs="0" />
+              <xs:element name="KeysCode" msprop:Generator_ColumnVarNameInTable="columnKeysCode" msprop:Generator_ColumnPropNameInRow="KeysCode" msprop:Generator_ColumnPropNameInTable="KeysCodeColumn" msprop:Generator_UserColumnName="KeysCode" type="xs:string" minOccurs="0" />
+              <xs:element name="InputName" msprop:Generator_ColumnVarNameInTable="columnInputName" msprop:Generator_ColumnPropNameInRow="InputName" msprop:Generator_ColumnPropNameInTable="InputNameColumn" msprop:Generator_UserColumnName="InputName" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="KeyMapping" msprop:Generator_TableClassName="KeyMappingDataTable" msprop:Generator_TableVarName="tableKeyMapping" msprop:Generator_TablePropName="KeyMapping" msprop:Generator_RowDeletingName="KeyMappingRowDeleting" msprop:Generator_RowChangingName="KeyMappingRowChanging" msprop:Generator_RowEvHandlerName="KeyMappingRowChangeEventHandler" msprop:Generator_RowDeletedName="KeyMappingRowDeleted" msprop:Generator_UserTableName="KeyMapping" msprop:Generator_RowChangedName="KeyMappingRowChanged" msprop:Generator_RowEvArgName="KeyMappingRowChangeEvent" msprop:Generator_RowClassName="KeyMappingRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="KeyCode" msprop:Generator_ColumnVarNameInTable="columnKeyCode" msprop:Generator_ColumnPropNameInRow="KeyCode" msprop:Generator_ColumnPropNameInTable="KeyCodeColumn" msprop:Generator_UserColumnName="KeyCode" type="xs:string" />
+              <xs:element name="KeyDisplay" msprop:Generator_ColumnVarNameInTable="columnKeyDisplay" msprop:Generator_ColumnPropNameInRow="KeyDisplay" msprop:Generator_ColumnPropNameInTable="KeyDisplayColumn" msprop:Generator_UserColumnName="KeyDisplay" type="xs:string" minOccurs="0" />
+              <xs:element name="KeySend" msprop:Generator_ColumnVarNameInTable="columnKeySend" msprop:Generator_ColumnPropNameInRow="KeySend" msprop:Generator_ColumnPropNameInTable="KeySendColumn" msprop:Generator_UserColumnName="KeySend" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Preset" />
+      <xs:field xpath="mstns:Id" />
+    </xs:unique>
+    <xs:unique name="PresetConfig_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:PresetConfig" />
+      <xs:field xpath="mstns:id" />
+      <xs:field xpath="mstns:presetId" />
+      <xs:field xpath="mstns:KeypadButton" />
+      <xs:field xpath="mstns:InputName" />
+    </xs:unique>
+    <xs:unique name="KeyMapping_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:KeyMapping" />
+      <xs:field xpath="mstns:KeyCode" />
+    </xs:unique>
+    <xs:keyref name="Preset_PresetConfig" refer="Constraint1" msprop:rel_Generator_UserChildTable="PresetConfig" msprop:rel_Generator_ChildPropName="GetPresetConfigRows" msprop:rel_Generator_UserRelationName="Preset_PresetConfig" msprop:rel_Generator_RelationVarName="relationPreset_PresetConfig" msprop:rel_Generator_UserParentTable="Preset" msprop:rel_Generator_ParentPropName="PresetRow">
+      <xs:selector xpath=".//mstns:PresetConfig" />
+      <xs:field xpath="mstns:presetId" />
+    </xs:keyref>
+  </xs:element>
+  <xs:annotation>
+    <xs:appinfo>
+      <msdata:Relationship name="Preset_DefaultPreset" msdata:parent="Preset" msdata:child="DefaultPreset" msdata:parentkey="Id" msdata:childkey="id" msprop:Generator_UserChildTable="DefaultPreset" msprop:Generator_ChildPropName="GetDefaultPresetRows" msprop:Generator_UserRelationName="Preset_DefaultPreset" msprop:Generator_RelationVarName="relationPreset_DefaultPreset" msprop:Generator_UserParentTable="Preset" msprop:Generator_ParentPropName="PresetRow" />
+    </xs:appinfo>
+  </xs:annotation>
+</xs:schema>

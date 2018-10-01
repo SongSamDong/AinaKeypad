@@ -361,5 +361,41 @@ namespace AinaKeypad
         {
 
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            if (!this.TopMost)
+            {
+                this.TopMost = true;
+                this.Opacity = 0.3;
+                this.FormBorderStyle = FormBorderStyle.None;
+            }
+            else {
+                this.TopMost = false;
+                this.Opacity = 1;
+                this.FormBorderStyle = FormBorderStyle.FixedSingle;
+            }
+        }
+
+        private const int WM_NCHITTEST = 0x84;
+        private const int HTCLIENT = 0x1;
+        private const int HTCAPTION = 0x2;
+
+        protected override void WndProc(ref Message m)
+        {
+            switch (m.Msg)
+            {
+                case WM_NCHITTEST:
+                    base.WndProc(ref m);
+                    if ((int)m.Result == HTCLIENT)
+                    {
+                        m.Result = (IntPtr)HTCAPTION;
+                    }
+
+                    return;
+            }
+
+            base.WndProc(ref m);
+        }
     }
 }

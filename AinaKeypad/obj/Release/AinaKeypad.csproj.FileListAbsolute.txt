@@ -6,3 +6,4 @@ C:\Users\Dell\Documents\Visual Studio 2015\Projects\AinaKeypad\AinaKeypad\obj\Re
 C:\Users\Dell\Documents\Visual Studio 2015\Projects\AinaKeypad\AinaKeypad\obj\Release\AinaKeypad.csproj.GenerateResource.Cache
 C:\Users\Dell\Documents\Visual Studio 2015\Projects\AinaKeypad\AinaKeypad\obj\Release\AinaKeypad.exe
 C:\Users\Dell\Documents\Visual Studio 2015\Projects\AinaKeypad\AinaKeypad\obj\Release\AinaKeypad.pdb
+C:\Users\Dell\Documents\Visual Studio 2015\Projects\AinaKeypad\AinaKeypad\obj\Release\AinaKeypad.csprojResolveAssemblyReference.cache
